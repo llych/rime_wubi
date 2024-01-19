@@ -76,7 +76,6 @@ reverse_lookup:
 
 punctuator:
   import_preset: default
-  import_preset: default
   symbols:
     "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒]
     "/xh": [＊, ×, ✱, ★, ☆, ✩, ✧, ❋, ❊, ❉, ❈, ❅, ✿, ✲]
