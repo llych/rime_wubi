@@ -42,6 +42,11 @@ engine:
     - table_translator
     - lua_translator@date_translator # 自定义系统变量输出
     - lua_translator@calculator #
+  filters:
+    # - simplifier@emoji_suggestion
+    - simplifier@zh_simp # 简体过滤
+    - simplifier # 简体
+    - uniquifier
 
 speller:
 

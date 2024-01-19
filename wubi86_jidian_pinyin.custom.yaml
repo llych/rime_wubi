@@ -5,9 +5,14 @@ patch:
     name: emoji_suggestion
     reset: 1
     states: ["😣️", "😁️"]
-  "engine/filters/@before 0": simplifier@emoji_suggestion
+  "engine/filters/@before 1": simplifier@emoji_suggestion
   emoji_suggestion:
     opencc_config: emoji.json
     option_name: emoji_suggestion
-    tips: none
+    tips: all
     inherit_comment: false
+  # engine:
+  #   filters:
+  #     - simplifier@emoji_suggestion
+  #     # - wubi86_jidian_pinyin@emoji_suggestion
+  #     # - wubi86_jidian_user@emoji_suggestion
