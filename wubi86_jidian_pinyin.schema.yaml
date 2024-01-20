@@ -10,7 +10,7 @@ schema:
   description: |
     五笔字形 86 极点极爽版，方案由 KyleBing 修改 - 2019年11月08日 10:26
   dependencies:
-    - pinyin_simp
+    - rime_ice
 
 switches:
   - name: full_shape
@@ -73,7 +73,7 @@ abc_segmentor:
     - reverse_lookup
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: rime_ice
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
